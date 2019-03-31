@@ -1,7 +1,7 @@
 Esolang Specification designed to be written one handed while giving you a headache
 
 ## Commands
-QWOCT only has 8 commands or letters which each have a base function. Each function maniulates or interacts with the current queue. To write programs, the letters are combined in pairs that form words which have
+QWOCT commands are written as the letters QWERTYUI which each have a base function. Each letter, or function maniulates or interacts with the current queue. To write programs, the letters are combined in pairs that form words which have
 related functionalities.
 
 ### Letters
@@ -61,7 +61,12 @@ The opposite of Uncrement, used to raise the current value, or add a value to qu
 TBC
 
 ### Numbers
-TBC
+QWOCT only uses numbers between 1 and 8. This means that although all numbers are base 8, all instances of 0 are replaced by 8. For instance, 1-8 remain the same. As an example, the first 16 numbers are:
 
-### Input Precedence
-TBC
+
+|QWOCT Numbers  | Ordinary Base-10 |
+| ------------- | ------------- |
+| 1, 2, 3, 4, 5, 6, 7, 8  | 1, 2, 3, 4, 5, 6, 7, 8  |
+| 11, 12, 13, 14, 15, 16, 17, 18  | 9, 10, 11, 12, 13, 14, 15, 16  |
+
+Note how 9 is written 11, instead of 10. Compared to ordinary base-8 which is 10, or traditional bijective base-8, by 1A.
