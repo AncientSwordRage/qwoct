@@ -18,7 +18,7 @@ Commands which directly effect the command words themselves.
 *Example*: W8   
 *Output*: The function related to I
 
-#### *E* - Each, or element-wise
+#### *E* - Each, or enumerate
 Modifies a command to be run on each element of a queue.
 
 *Example*: E2    
@@ -51,7 +51,7 @@ The opposite of Increment, used to lower the current value, or to pop an element
 *Example*: U7   
 *Output*: Pops the seventh element in the current queue, defaults to returning 8 if there is no such element
 
-#### *I* - Incremenet
+#### *I* - Increment
 The opposite of Uncrement, used to raise the current value, or add a value to queue
 
 *Example*: I1   
